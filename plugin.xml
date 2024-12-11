@@ -1,16 +1,16 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-		id="com.example.criticalalerts"
+		id="com.example.iOSCriticalAlertsPermission"
 		version="1.0.0">
 	<name>CriticalAlerts</name>
 	<description>Plugin to request Critical Alerts permission on iOS</description>
 	<license>MIT</license>
 	<keywords>cordova, critical alerts, permissions, ios</keywords>
 
-	<js-module src="www/CriticalAlerts.js" name="CriticalAlerts">
-		<clobbers target="CriticalAlerts" />
+	<js-module src="www/iOSCriticalAlertsPermission.js" name="iOSCriticalAlertsPermission">
+		<clobbers target="iOSCriticalAlertsPermission" />
 	</js-module>
 
 	<platform name="ios">
-		<source-file src="src/ios/CriticalAlerts.swift" />
+		<source-file src="src/ios/iOSCriticalAlertsPermission.swift" />
 	</platform>
 </plugin>
