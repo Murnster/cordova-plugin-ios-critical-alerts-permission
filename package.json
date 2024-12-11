@@ -1,0 +1,9 @@
+{
+    "name": "cordova-plugin-ios-critical-alerts-permission",
+    "version": "1.0.0",
+    "description": "A Cordova plugin to request Critical Alerts permission on iOS.",
+    "cordova": {
+        "id": "com.example.ioscriticalalertspermission",
+        "platforms": ["ios"]
+    }
+}
